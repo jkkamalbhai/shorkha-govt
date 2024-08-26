@@ -1,0 +1,424 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nab {
+    display: flex;
+    width: 100%px;
+    justify-content: space-between;
+    background: #00000012;
+
+}
+
+.nab img {
+    margin-left: 75px;
+    padding: 10px 0px;
+}
+
+.nab ul {
+
+    margin-left: 400px;
+    width: 100%;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nab ul li {
+    width: 100%;
+    list-style: none;
+    line-height: 100px;
+    /* background: papayawhip; */
+    margin-left: 3px;
+    position: relative;
+}
+
+.nab ul li ::before {
+    content: "";
+    width: 0%;
+    height: 7px;
+    background: green;
+    left: 50%;
+    bottom: 0px;
+    position: absolute;
+    transform: translatex(-50%);
+    transition: 1s;
+}
+
+.nab ul li :hover::before {
+    width: 100%;
+
+}
+
+.nab ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.nab ul button {
+    width: 80px;
+    font-size: 22px;
+    height: 39px;
+    background: tomato;
+    border-radius: 7px;
+    margin-top: 32px;
+    margin-left: 5px;
+}
+
+.top {
+    background-image: url(img/banner-bg.7358efba.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+
+}
+
+.left {
+    margin-top: 50px;
+    width: 30%;
+    height: 75%;
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.left:hover {
+    background: rgba(153, 206, 206, 0.863);
+}
+
+.left>.one {
+    width: 100%;
+    height: 45%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left>.one>h2 {
+    font-size: 27px;
+}
+
+.left>.two {
+    width: 100%;
+    height: 45%;
+}
+
+.two>p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.two>img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.down{
+    width: 90%;
+    height: 12px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: -8px;
+    background: blue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.right {
+    margin-top: 50px;
+    width: 25%;
+    height: 75%;
+    position: relative;
+    /* border: 3px solid black; */
+
+
+}
+
+.right-one {
+    width: 100%;
+    height: 22%;
+    /* margin: % 0%; */
+    background: white;
+    display: flex;
+    padding-left: 20px;
+    border-radius: 6px;
+    transition: 1s;
+    border-left: 10px solid rgb(118, 223, 118);
+   margin: 3px;
+}
+
+.right-one:hover {
+    background: rgba(152, 251, 152, 0.623);
+}
+
+.right-one>img {
+    width: 70px;
+    height: 70px;
+    margin-top: 3%;
+
+}
+
+.right-one>H3 {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
+.right-two {
+    width: 100%;
+    height: 22%;
+    margin: 5% 0%;
+    background: white;
+    padding-left: 5%;
+    display: flex;
+    padding-left: 27px;
+    border-radius: 6px;
+    transition: 1s;
+    border-left: 10px solid rgb(159, 153, 91);
+}
+
+.right-two:hover {
+    background: rgb(249, 244, 190);
+}
+
+.right-two>img {
+    width: 55px;
+    height: 58px;
+    margin-top: 4%;
+}
+
+.right-two>H3 {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.right-three {
+    width: 100%;
+    height: 22%;
+    margin: 5% 0%;
+    background: white;
+    padding-left: 3%;
+    display: flex;
+    padding-left: 27px;
+    border-radius: 6px;
+    transition: 1s;
+    border-left: 10px solid rgb(145, 198, 198);
+}
+
+.right-three>img {
+    width: 70px;
+    height: 73px;
+    margin-top: 4%;
+}
+
+.right-three>H3 {
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+.right-three:hover {
+    background: rgb(198, 250, 250);
+}
+
+
+.right-four {
+    width: 100%;
+    height: 22%;
+    /* margin: 4% 0%; */
+    background: white;
+    padding-left: 3%;
+    display: flex;
+    padding-left: 20px;
+    border-radius: 6px;
+    transition: 1s;
+    border-left: 10px solid rgb(116, 208, 157);
+}
+
+.right-four>img {
+    width: 60px;
+    height: 60px;
+    margin-top: 4%;
+
+}
+
+.right-four>H3 {
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.right-four:hover {
+    background: rgb(175, 253, 210);
+}
+
+
+
+
+
+
+.contect {
+    width: 90%;
+    height: 120px;
+    margin-top: 37%;
+    position: relative;
+    margin-left: 5%;
+    background: white;
+    border-radius: 6px;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.429);
+}
+
+.contect-main {
+    width: 100%;
+    display: flex;
+}
+.cont {
+    width: 100%;
+    border-right: 3px solid slategrey;
+    padding: 19px;
+    margin-top: 8px;
+    justify-content: center;
+  
+}
+
+.cont>img {
+    width: 25px;
+    margin-left: 53px;
+}
+
+.cont>h4 {
+    padding-left: 45px;
+    color: green;
+}
+
+.cont>h5 {
+    color: black;
+    padding-top: 15px;
+    ;
+}
+
+.one>h5 {
+    padding-left: 38px;
+    padding-top: 10px;
+}
+
+.three>h5 {
+    padding-left: 30px;
+}
+
+.five>h4 {
+    padding-left: 22px;
+}
+
+.six {
+    border-right: none;
+}
+
+.six>h5 {
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+
+.process{
+    margin-top: 20px;
+    width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 4px 4px hsla(0, 0%, 72.5%, .25);
+
+}
+
+.process>h2{
+   margin: 50px;
+    border-left: 5px solid tomato;
+
+}
+.process-main{
+   display: flex;
+text-align: center;
+width: 100%;
+
+}
+ .process-main>div >h3{
+  padding: 20px;
+
+} 
+.process-main>div >p{
+    padding: 0px 20px; 
+}
+
+.downlod{
+    display: flex;
+    width: 100%; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 320px;
+    background: tomato;
+    display: flex;
+    padding-right: 50px;
+    gap: 15px;
+
+}
+.foter{
+    width: 80%;
+    height: 320px;
+    padding-top: 60px;
+
+    
+}
+footer>.one>img{
+    padding-left: 70px;
+
+padding-right: 50px;
+
+}
+
+footer>.two>ul>li{
+    padding: 10px;
+    list-style: none;
+}
+footer>.two>ul>li>a{
+ text-decoration: none;
+ color: white;
+}
+footer>.two>ul>li>a:hover{
+    text-decoration: underline;
+}
+footer>.three>img{
+    padding-top: 40px;
+}
+footer>.three>p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+footer>.four>img{
+    padding-top: 60px;
+}
+footer>.four>p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
